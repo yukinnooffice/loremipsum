@@ -38,6 +38,7 @@ header {
 
 }
 .nav-list-item{
+ float: right;
  display: inline-block;
  height: 100%;
  padding: 30px;
@@ -97,7 +98,7 @@ h2::after {
 .hedding-text{
   font-size: 16px;
   color:#000000;
-  padding: 30px 0px
+  padding: 30px 0px;
 }
 
 
@@ -176,7 +177,8 @@ h2::after {
   margin-right: 10px;
 }
 
-.fa{font-size: 60px;
+.fa{
+  font-size: 60px;
 }
 
 .strength-title{
@@ -186,10 +188,358 @@ h2::after {
 }
 
 .strength-text{
-  font-size: 16px
+  font-size: 16px;
 }
+
 .featurebox:last-child {
   margin-right: 0px;
 }
-/*900px以下のwidthに以下のCSSを適用する*/
 
+/*Profile*/
+
+.Profile {
+  background-size: cover;
+  background-position: center;
+  background-color: #ECEFF1;
+  margin-top: 90px;
+}
+
+.Profile-container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.Profile-title{
+  font-size: 32px;
+  text-align: center;
+  background-position: center;
+}
+
+.Profile-text{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px
+}
+
+.Profile-image-container{
+  padding: 30px 0px 90px;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.Profile-image-box{
+  width: 512px;
+  float:left;
+}
+.Profile-image{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(img/my-icon.jpg);
+
+}
+.Profile-image-text-box{
+  width: 512px;
+  float:left;
+}
+
+.Myname{
+  font-size: 20px;
+  padding-bottom:5px;
+}
+
+.Profile-image-text{
+  font-size: 16px;
+}
+
+.Myskills{
+  padding: 20px 0px 5px;
+  font-size: 20px;
+}
+
+     /*contact*/
+.contact{
+  background-color: white;
+  padding-top:90px;
+}
+
+.contact-container{
+  width: 800px;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.contact-container2{
+  width: 800px;
+  background-position: center;
+  margin: 0 auto;
+  padding:30px 0px 90px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+.contact-title{
+  font-size: 32px;
+  text-align:center;
+}
+
+.contact-text{
+  font-size: 16px;
+  padding-top: 30px;
+  text-align:center;
+}
+
+.contact-adress{
+  width: 400px;
+  float:left;
+}
+.left-contact-content{
+  width:130px;
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+.Mail{
+}
+
+.adress{
+  font-size: 16px;
+  padding: 5px 0px 20px;
+
+}
+.underline {
+  text-decoration: underline;
+  color: #212121;
+}
+.contact-sns{
+  width: 400px;
+  float:left;
+}
+
+.right-contact-content{
+  width:190px;
+  margin: 0 auto;
+}
+
+.fab{
+  font-size: 50px;
+  margin-right:20px;
+}
+
+.fab:last-child {
+  margin-right: 0px;
+}
+
+/*footer*/
+footer{
+  position: relative;
+  height: 60px;
+  text-align: center;
+  background-color: #EC715F;
+}
+
+.footer-text{
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+}
+
+
+/*____________レスポンシブデザイン__________________________________________________*/
+
+@media (max-width: 768px){
+
+ header {
+  height: 50px;
+ }
+ .container{
+  width: 90%;
+  height: 50px;
+}
+ .menubox{
+    float: ;
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #FAFAFA;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+ .top-logo {
+  height:50px;
+ }
+
+ .nav-list{
+  display: none;
+
+ }
+
+ /*メイン*/
+
+
+ .main-visual {
+
+  background-image: url(img/code.png);
+ }
+
+ .mv-title {
+  font-size: 40px;
+ }
+
+ .mv-text {
+  font-size: 18px;
+ }
+
+ main{
+  width: 90%;
+  margin: 0 auto;
+ }
+
+
+ .production-group{
+  padding: 20px 0px 80px 0px;
+ }
+
+ .production {
+  float: none;
+  margin: 20px auto 10px;
+ }
+
+.sp-none {
+    display: none;
+}
+ .production:nth-child(3n) {
+  margin: 20px auto 10px;
+ }
+
+
+  /*Feature*/
+
+
+
+  .Feature-container {
+  width:90%;
+  margin: 0 auto;
+  }
+
+
+
+  .Feature-Box{
+  width: 90%;
+  padding: 20px 0 90px 0;
+  margin: 0 auto;
+  }
+
+  .featurebox {
+  float: none;
+  width: 320px;
+  margin: 10px auto;
+  }
+
+  .featurebox:last-child {
+   margin: 10px auto;
+  }
+
+  /*Profile*/
+
+
+  .Profile-container{
+  width: 90%;
+  margin: 0 auto;
+  }
+
+  .Profile-title{
+  font-size: 32px;
+  text-align: center;
+  background-position: center;
+  }
+
+  .Profile-image-container{
+  padding: 30px 0px 90px;
+  width: 90%;
+  margin: 0 auto;
+  }
+
+  .Profile-image-box{
+  width: 90%;
+  float:none;
+  margin: 0 auto;
+  }
+
+  .Profile-image-text-box{
+  width: 90%;
+  float:none;
+  text-align: center;
+  margin: 0 auto;
+  }
+
+  .Myname{
+  margin-top:20px;
+  padding:5px;
+  }
+
+
+     /*contact*/
+  .contact{
+  text-align: center;
+  }
+
+  .contact-container{
+  width: 90%;
+  margin: 0 auto;
+  }
+
+  .contact-container2{
+  width: 90%;
+  background-position: center;
+  margin: 0 auto;
+  padding:30px 0px 90px;
+  }
+
+  h3{
+  font-size: 20px;
+  }
+
+  .contact-title{
+  font-size: 32px;
+  text-align:center;
+  }
+
+  .contact-text{
+  font-size: 16px;
+  padding-top: 30px;
+  text-align:center;
+  }
+
+  .contact-adress{
+  float:none;
+  margin: 0 auto;
+  }
+  .left-contact-content{
+  width:130px;
+  margin: 0 auto;
+
+  }
+
+  .Mail{text-align: center;
+  }
+  .Tel{text-align: center;
+
+  }
+
+  .contact-sns{
+  width: 90%;
+  float:none;
+  margin: 20px auto;
+  }
+
+
+  /*footer*/
+  footer{
+  height: 60px;
+
+}
