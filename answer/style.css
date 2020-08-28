@@ -32,7 +32,7 @@
   background-color:#00b522;
   padding:20px;
   max-width:700px;
-  flex-grow:1;
+  lex-grow:1;
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
@@ -43,12 +43,6 @@
   height:130px;
   margin:10px;
 }
-.content > div{
-  width: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color:#fff75a;
-}
 
 .footer{
   background-color:#52a1ff;
@@ -57,7 +51,6 @@
   flex-wrap:wrap;
   justify-content:center;
 }
-
 .footer > div{
   background-color:#b6e7ff;
   width: 45%;
